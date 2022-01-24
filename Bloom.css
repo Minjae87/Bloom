@@ -1,0 +1,410 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+ol, ul{
+    list-style: none;
+}
+
+body{
+    font-family: 'Noto Serif KR', serif;
+    min-width:1350px;
+}
+
+
+/* 탑 시작하는 지점*/
+
+#top{
+    background-color: rgb(241, 220, 200);
+    height: 70px;
+}
+
+#top_inner{
+    width: 1300px;
+    padding-top: 4px;
+    margin: 0 auto;
+}
+
+#top_inner>ul{
+    float: right;
+}
+
+#top_inner>ul>li{
+    margin-left: 10px;
+    padding-top: 25px;
+    color: #888;
+    float: left;
+}
+
+#top_inner>ul>li>a{
+    font-size: 14px;
+    color: #888;
+}
+
+#top_inner>ul>li>a:hover{
+    font-weight: bold;
+    color: grey;
+}
+
+#nav{
+    margin: 10px;
+}
+
+#nav_inner{
+    width: 1300px;
+    height: 64px;
+    margin: 0 auto;
+}
+
+.logo {
+    float: left;
+}
+
+.logo>a>img{
+    width: 65%;
+}
+
+.text>ul{
+    float: right;
+    margin-top: 25px;
+}
+
+.text>ul>li{
+    float: left;
+    margin-left: 30px;
+}
+
+
+.text>ul>li>a{
+    color:tomato;
+    font-size: 24px;
+}
+
+.text>ul>li>a:hover{
+    color:green;
+    opacity: 30%;
+}
+
+/*배너 시작*/
+
+#banner1{
+    margin: 0 auto;
+    text-align: center;
+}
+
+#Best{
+    margin-top: 100px;
+}
+
+#Best>h1{
+    text-align: center;
+    font-size: 35px;    
+    margin: 50px 0;
+}
+
+#Best_inner{
+    margin: 0 auto;
+    width: 1300px;
+}
+
+#Best_inner>ul>li{
+    float: left;
+    width: 25%;    
+    overflow: hidden;
+}
+
+#Best_inner>ul>li>a:hover img{
+    transform: translateY(5px);
+    transition: all 0.5s;
+}
+
+.theme{
+    color: #999;
+    margin-top: 30px;
+}
+
+h2{
+    margin: 15px 0;
+}
+
+h2>a{
+    color: black;
+}
+
+.percent{
+    color: red;
+}
+
+.DC{
+    color: #ccc;
+    text-decoration: line-through;
+}
+
+.price{
+    font-weight: bold;
+}
+
+.way3>li{
+    float: left;
+    margin-right: 15px;
+    
+    margin-bottom: 150px;
+}
+
+/*Event 끝*/
+
+
+/*배너2 시작지점*/
+
+#banner2{
+    clear: both;
+    margin: 0 auto;
+    text-align: center;    
+}
+
+#Event_inner{
+    width: 1300px;
+    height: 700px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+#Event_inner>h1{
+    text-align: center;
+    font-size: 35px;
+    margin: 50px 0;
+}
+
+#Event_inner>ul>li{    
+    float: left;   
+    overflow: hidden; 
+}
+
+#Event_inner>ul>li>a:hover img{
+    transform: translateY(5px);
+    transition: all 0.5s;
+}
+
+#Event_inner>ul>li:nth-child(2){
+    padding: 0 18px;
+}
+
+#banner3{
+    clear: both;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+
+/*bouquet 꽃다발 시작*/
+
+
+#bouquet_inner{
+    width: 1300px;
+    height: 1350px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+#bouquet_inner>h1{
+    text-align: center;
+    font-size: 35px;
+    margin: 50px 0;
+}
+
+.bouquet_menu1,
+.bouquet_menu2{  
+
+}
+
+.bouquet_menu1>li,
+.bouquet_menu2>li{  
+    overflow: hidden;
+    width: 25%;  
+    float: left;  
+    height: 580px;
+}
+
+.bouquet_menu1>li>a:hover img,
+.bouquet_menu2>li>a:hover img{
+    transform: translateY(5px);
+    transition: all 0.5s;
+}
+
+
+/* 배너4 시작지점*/
+
+#banner4{
+    clear: both;
+    margin: 0 auto;
+    text-align: center;    
+}
+
+
+
+/* 플라워 클래스 시작지점*/
+
+#flowerclass_inner{
+    margin: 0 auto;
+    margin-top: 120px;
+    height: 1150px;
+    text-align: center;
+}
+
+#flowerclass_inner>h1{
+    font-size: 35px;
+    margin: 50px 0 ;
+}
+
+
+
+
+/* 배너5 시작지점*/
+
+#banner5{
+    clear: both;
+    margin: 0 auto;
+    text-align: center;    
+}
+
+
+/* 소품샵 시작지점*/
+
+#shop_inner{
+    width: 1300px;
+    height: 1350px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+#shop_inner>h1{
+    text-align: center;
+    font-size: 35px;
+    margin: 50px;
+}
+
+.shop_menu1,
+.shop_menu2{
+    
+}
+
+.shop_menu1>li,
+.shop_menu2>li{  
+    overflow: hidden;
+    width: 25%;  
+    float: left;  
+    height: 580px;
+}
+
+.shop_menu1>li>a:hover img,
+.shop_menu2>li>a:hover img{
+    transform: translateY(5px);
+    transition: all 0.5s;
+}
+
+
+/*footer 시작 지점*/
+
+#footer{
+    font-size: 13px;
+    text-align: center;
+    background-color: rgb(245, 220, 196);
+}
+
+#footer_inner{
+    width: 1300px;
+    height: 250px;
+    margin: 0 auto;
+    padding: 30px 0;    
+}
+
+#footer_inner>p>img{
+    width: 100px;
+}
+
+
+.logo{
+    display: inline-block;
+}
+
+.LYYG{
+    padding: 10px 0;
+    display: inline-block;
+    
+}
+
+.LYYG>li{
+    float: left;
+    padding: 0 3px;
+}
+
+.LYYG>li>a{
+    color: #000;
+}
+
+.LYYG>li>a:hover{
+    font-weight: bold;
+}
+
+#footer_inner>p{
+    padding: 10px 0;
+    clear:both;
+}
+
+
+.sns{
+    display: inline-block;
+}
+
+.sns>li{
+    float: left;
+    padding: 0 3px;
+}
+
+.sns>li>a:hover{
+    opacity: 55%;
+    transition: all 0.5s;
+}
+
+
+#banner1>img,
+#banner2>img,
+#banner3>img,
+#banner4>img,
+#banner5>img{
+    width: 100%;    
+}
+
+
+
+#up>a{
+    display: inline-block;
+    text-align: center;
+    width: 38px;
+    height: 30px;
+    border: 3px solid #ccc;
+    border-radius: 25px;    
+    font-size: 19px;    
+    color: rgb(229, 190, 229);
+    padding: 5px;
+
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+}
+
+#up>a:hover{
+    width: 38px;
+    height: 30px;
+    color: rgb(223, 91, 223);
+    border: 3px solid plum;    
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+    border-radius: 25px;
+    font-weight: bold;
+    transition: all 0.3s;
+    padding: 5px;
+}
+
